@@ -1,37 +1,18 @@
-# Front End Nanodegree Program
+# Udacity Project 4: Evaluate a news article with Natural Language Processing
 
-Front End Nanodegree Content & Project Resources
+## How to start the project:
 
-## Table of Contents
+### Dev mode
+`npm run build-dev` to start the dev server in localhost 8080
 
-* [Projects](#projects)
-* [Courses](#courses)
-* [Style-Guide](#style-guide)
+### Production mode
+`npm run build-prod` Create the dist folder
 
-## Projects
+### Start the server
+`npm run start` to start the server in localhost 8081
 
-The following is a list of current projects required to complete the Front End Nanodegree.
+### Run the test
+`npm run test`
 
-Note that projects that do not include associated starter code are not linked here.
-
-1. Personal Blog Website
-2. [Landing Page](https://github.com/udacity/fend/tree/refresh-2019/projects/landing-page)
-3. [Weather Journal App](https://github.com/udacity/fend/tree/refresh-2019/projects/weather-journal-app)
-4. [Evaluate A News Article with Natural Language Processing](https://github.com/udacity/fend/tree/refresh-2019/projects/evaluate-news-nlp)
-5. Capstone - Travel App
-
-## Courses
-
-The following is a list of the courses associated with the Front End Nanodegree.
-
-* C1 - CSS, Website Layout, Website Components
-* C2 - JavaScript & The DOM
-* C3 - Web API's and Asynchronous Applications
-* C4 - Build Tools and Single Page Web Apps
-* C5 - Capstone
-
-## Style-Guide
-
-See below for the Udacity Style Guide used thoroughout the Front End Nanodegree.
-
-* [Nanodegree Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/)
+## API
+This project uses the MeaningCloud Sentiment Analysis API
