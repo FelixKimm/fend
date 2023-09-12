@@ -8,8 +8,6 @@ function handleSubmit(event) {
     
     if (isValidURL(formText)) {
 
-        Client.checkForName(formText)
-
         const formdata = new FormData();
         formdata.append("key", "955da75ad665f467bd061cc400fe5c55");
         formdata.append("txt", formText);
